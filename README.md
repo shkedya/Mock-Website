@@ -1,4 +1,5 @@
 # Mock-Website
 
 The website is a mock school site with the following pages: the Home page as the main page, Apply as a subpage, Academic Calendar as another subpage, and the Donation screen as the final subpage. Each page will have clickable text links to navigate between them, with the Donation screen featuring a button that redirects to the donation page.
+
 The Home page will include (fake) pictures of the campus displayed in a carousel animation. Additionally, there will be links to a (fake) Canvas page and other resources that students typically need. The Apply page will require the student to enter their name, the degree they want to pursue, and whether they plan to study on-campus or via eCampus, among other information. This page will also feature an unordered list in some way. The Academic Calendar page will display the start and end dates of each semester, along with holidays, updated asynchronously. It will also include a scroll box for navigating through different years and semesters. Finally, the Donation page will lead to a third-party service where users can make payments.
