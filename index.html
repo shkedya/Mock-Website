@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>Alon's School</title>
+<link href="css/school.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="">
+    <h4 class="logo">ALON'S SCHOOL&nbsp;</h4>
+    </a>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+		  <li> <a href="about.html">ABOUT&nbsp;</a></li>
+        <li><a href="apply.html">APPLY&nbsp;</a></li>
+        <li> <a href="calendar.html">CALENDAR</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="myHeader" id="myHeader">
+	  <h2 class="myHeader_header">Pictures of Our School</h2>
+	<div class="Carousel">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="photo">
+    <img src="Image_1.jpg" style="width:90%">
+  </div>
+
+  <div class="photo">
+    <img src="Image_2.jpg" style="width:90%">
+  </div>
+
+  <div class="photo">
+    <img src="Image_3.jpg" style="width:90%">
+  </div>
+
+  <div class="photo">
+     <img src="Image_4.jpg" style="width:90%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+	  <script src="Carousel.js"></script>
+	  <script>window.setInterval(nextSlide, 5000)</script>
+  </section>
+</div>
+<!-- Main Container Ends -->
+</body>
+</html>
